@@ -14,9 +14,11 @@ A sleek, always-on-top desktop widget that displays your **Claude.ai** usage lim
 - **Always-on-top** borderless window, draggable
 - **Dark glassmorphism** UI with neon yellow arc gauges
 
-## Screenshot
+## Themes
 
-![Claude Usage Widget](screenshot.png)
+| Neon Volt | Cyberpunk | Matrix | Arctic | Inferno |
+|:---------:|:---------:|:------:|:------:|:-------:|
+| ![Neon Volt](screenshot.png) | ![Cyberpunk](cyberpunk.png) | ![Matrix](matrix.png) | ![Arctic](artic.png) | ![Inferno](inferno.png) |
 
 ## Requirements
 
