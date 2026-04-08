@@ -44,33 +44,30 @@ cd claude-usage-widget
 pip install -r requirements.txt
 ```
 
-## Setup
-
-1. Copy the example config:
-   ```bash
-   cp config.example.json config.json
-   ```
-
-2. Get your `sessionKey` from Claude.ai:
-   - Go to [claude.ai](https://claude.ai)
-   - Open DevTools (F12) → **Application** → **Cookies** → `claude.ai`
-   - Copy the value of `sessionKey`
-
-3. Get your `org_id`:
-   - In DevTools → **Application** → **Cookies** → copy the value of `lastActiveOrg`
-
-4. Paste both values in `config.json`:
-   ```json
-   {
-     "session_key": "sk-ant-sid02-...",
-     "org_id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
-   }
-   ```
-
-## Usage
+## Quick Start
 
 ```bash
 python claude_widget.py
+```
+
+On first launch, a **setup wizard** will guide you through the configuration:
+
+1. Open [claude.ai](https://claude.ai) in Chrome
+2. Press **F12** → go to **Application** → **Cookies** → `claude.ai`
+3. The wizard will ask you to paste two values:
+   - **`sessionKey`** — starts with `sk-ant-...`
+   - **`lastActiveOrg`** — your organization UUID
+
+That's it. The widget saves everything in `config.json` (excluded from git).
+
+### Manual setup (alternative)
+
+If you prefer, copy `config.example.json` to `config.json` and fill in the values:
+```json
+{
+  "session_key": "sk-ant-sid02-...",
+  "org_id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+}
 ```
 
 ### Launch at Windows startup

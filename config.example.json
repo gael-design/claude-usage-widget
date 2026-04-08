@@ -1,4 +1,5 @@
 {
   "session_key": "PASTE_YOUR_SESSIONKEY_HERE",
-  "org_id": "PASTE_YOUR_ORG_ID_HERE"
+  "org_id": "PASTE_YOUR_ORG_ID_HERE",
+  "lang": "fr"
 }
