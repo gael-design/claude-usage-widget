@@ -16,20 +16,7 @@ A sleek, always-on-top desktop widget that displays your **Claude.ai** usage lim
 
 ## Screenshot
 
-```
- 🧠 CLAUDE               LIVE ●  — ✕
- ┌─────────────────────────────────┐
- │   ◠ 2%    ◠ 27%    ◠ 24%      │
- │  Session  All models  Sonnet   │
- ├─────────────────────────────────┤
- │  PREPAID CREDITS               │
- │  176.77 €                      │
- ├─────────────────────────────────┤
- │  EXTRA USAGE                   │
- │  Disabled                      │
- └─────────────────────────────────┘
-          By GF — 2026 Claude Widget
-```
+![Claude Usage Widget](screenshot.png)
 
 ## Requirements
 
